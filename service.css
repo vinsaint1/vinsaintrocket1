@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.174);
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem;
+
+}
+
+.header-navbar{ /*border: 5px solid;*/
+                display: flex;
+                
+               
+
+            
+}
+
+.header-navbar ul{ list-style: none;
+                   display: flex;
+                   gap:6rem;
+                   align-items: center;
+                  
+                   
+
+}
+
+.header-navbar ul a{
+                    text-decoration:none;
+                    color: black;
+ 
+}
+
+.box1 svg{
+    display:none;
+}
+
+
+.services{   padding:4rem;
+             line-height:4.5rem;
+}
+
+.services h1{
+               font-size:4rem;
+               font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.services p{
+              font-size:1.6rem;
+              font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.rocket-display-box{
+                     /* border: 1px solid red;*/
+                      display: flex;
+                      justify-content: center;
+                      gap: 2rem;
+                      padding: 2rem;
+                     
+                      
+}
+
+
+.writeup{  border: 1px solid rgba(128, 128, 128, 0.301);
+           height: 15rem;
+           margin-top: -4px;
+           text-align: center;
+           line-height: 2rem;
+           line-height: 2.2rem;
+}
+
+.writeup h3{  display: flex;
+              justify-content: center;
+              padding-top:3rem;
+              font-size: 1.5rem;
+
+}
+
+.writeup p{ font-size: 1.4rem;
+
+
+}
+
+.writeup a{
+             text-decoration: none;
+             color: rgba(128, 0, 128, 0.628);
+
+}
+
+
+
+
+
+.rocket-display-box2{
+                     /* border: 1px solid red;*/
+                      display: flex;
+                      justify-content:start;
+                      gap: 2rem;
+                      padding: 2rem;
+                      padding-left:4rem;
+                     
+}
+
+
+.writeup2{ border: 1px solid rgba(128, 128, 128, 0.301);
+           height: 15rem;
+           margin-top: -4px;
+           text-align: center;
+           line-height: 2rem;
+           line-height: 2.2rem;
+}
+
+
+
+
+.writeup2 h3{  display: flex;
+              justify-content: center;
+              padding-top:3rem;
+              font-size: 1.5rem;
+
+}
+
+
+
+.writeup2 p{ font-size: 1.4rem;
+
+
+}
+
+
+
+.writeup2 a{
+             text-decoration: none;
+             color: rgba(128, 0, 128, 0.628);
+
+}
+
+
+    .purple-box{  display:flex;
+                  /*border: 2px solid red;*/
+                  height:17rem;
+                  display:flex;
+                  padding-left:2.5rem;
+                  padding-top:4rem;
+                  flex-direction:column;
+                  font-size:2.5rem;
+                  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                  margin-top:10rem;
+                  background-color:rgba(125, 54, 176, 0.781);
+                  color:white;
+             
+    }
+
+    .purple-box p{ font-size:1.5rem; 
+                   margin-top:-1rem;
+       }
+
+   .purple-box button{ display:flex;
+                       width:10rem;
+                       padding:1rem;
+                       align-self:end;
+                       margin-top:-5rem;
+                       margin-right:1.8rem;
+                       text-align:center;
+                       font-size:1.2rem;
+                       font-family:'Times New Roman', Times, serif;
+   }
+
+
+
+
+ .finishing{ /*border:5px solid green;*/
+              height:15rem;
+              display:flex;
+              justify-content:space-between;
+              padding:3rem;
+              line-height:2rem;
+              background-color:black;
+              color:white;
+
+
+
+  }
+
+  .adjust{ margin-left:0.5rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1105px){
+
+    
+.box1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.174);
+    display: flex;
+    justify-content:space-around;
+    padding: 2rem;
+
+}
+    
+.header-navbar{ /*border: 5px solid;*/
+                display:flex;
+                justify-self: center;
+                
+               
+
+            
+}
+
+.header-navbar ul{ list-style: none;
+                   display:flex;
+                   gap:4rem;
+                   align-items: center;
+                   
+                  
+           
+
+}
+
+
+.services{   padding-left:7rem;
+             line-height:4.5rem;
+}
+
+
+
+.displaybox img{
+
+    width:26rem;
+}
+
+.writeup{
+
+    width: 26rem;
+    font-size:1rem;
+
+}
+
+.inwrite{
+          height:16.3rem;
+}
+
+#cleaning{
+           margin-top:-2rem;
+}
+
+
+
+.rocket-display-box2{
+        padding-left:7.4rem;
+}
+
+.displaybox2 img{
+
+    width:26rem;
+}
+
+.writeup2{
+    
+    width: 26rem;
+}
+
+
+
+.purple-box{ font-size:2rem;
+             padding-top:3rem;
+             
+}
+
+.purple-box p{  font-size:1.2rem;
+               
+}
+
+.purple-box button{ margin-top:2rem;
+                    margin-right:0;
+                    align-self:baseline;
+                    font-size:1rem;
+                    text-align:center;
+
+                     
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:911px){
+
+       
+.box1{
+   border-bottom: 1px solid rgba(0, 0, 0, 0.174);
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem;
+
+}
+
+.box1 img{
+    width: 10rem;
+    
+}
+
+.header-navbar{
+    display: none;
+}
+
+.box1 svg{
+    display: flex;
+}
+
+
+
+.services{   padding-left:7rem;
+             line-height:4.5rem;
+}
+
+.services h1{ font-size:4rem; 
+              
+}
+
+.services h2{
+                font-size:1.5rem;
+}
+
+
+.displaybox img{
+    display:flex;
+    width:100%;
+}
+
+
+.rocket-display-box{ flex-direction: column;
+     
+    
+}
+
+.writeup{ 
+
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+
+
+.displaybox2 img{
+    display:flex;
+    width:100%;
+}
+
+
+.rocket-display-box2{ flex-direction: column;
+                      padding-left:2rem;
+     
+    
+}
+
+.writeup2{ 
+
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+
+
+.purple-box{  display: flex;
+              font-size:1.8rem;
+              padding-top:2.2rem;
+              height:20rem;
+              margin-top:6rem;
+              margin-left:-1.4rem;
+              text-align:center;
+         
+
+}
+
+.purple-box p{ font-size:1.3rem;
+               text-align:center; 
+               padding:0;
+               margin-left:-1.2rem;
+               margin-top:-1.2rem;
+}
+
+.purple-box button{
+                     width:8rem;
+                     font-size:0.8rem;
+                     margin:1rem;
+                     align-self: center;
+                     padding:0.5rem;
+                     padding-left:1.3rem;
+
+
+}
+
+.finishing{  flex-direction:column;
+             justify-content:center;
+              height:28rem;
+              text-align: center;
+}
+
+
+}

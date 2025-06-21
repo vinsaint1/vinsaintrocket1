@@ -1,0 +1,731 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    /*border: 5px solid red;*/
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem;
+
+}
+
+.header-navbar{ /*border: 5px solid;*/
+                display: flex;
+                
+               
+
+            
+}
+
+.header-navbar ul{ list-style: none;
+                   display: flex;
+                   gap:6rem;
+                   align-items: center;
+                  
+                   
+
+}
+
+.header-navbar ul a{
+                    text-decoration:none;
+                    color: black;
+ 
+}
+
+.box1 svg{
+    display:none;
+}
+
+
+.rocket-section{ /*border: 5px solid purple;*/
+                 display:flex;
+                 height:40rem;
+                 background-image: url(./pictures/spacex-OHOU-5UVIYQ-unsplash.jpg);
+                 background-size: cover;
+                 background-color: rgba(0, 0, 0, 0.5);
+                 background-blend-mode: overlay;
+                 align-items: center;
+                 padding-left: 3rem;
+                 line-height: 4.3rem;
+                 
+
+}
+
+.rocket-section h1{ font-size: 50px;
+    color: white;
+}
+
+.rocket-section p{
+                   font-size: 33px;
+                   color: white;
+
+}
+
+.rocket-section button{
+                 padding: 1rem;
+
+}
+
+
+
+.rocket-details{  
+    /*border: 5px solid purple;*/
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+.rocket-display-box{
+                     /* border: 1px solid red;*/
+                      display: flex;
+                      justify-content: center;
+                      gap: 2rem;
+                      padding: 2rem;
+                     
+                      
+}
+
+
+.writeup{  border: 1px solid rgba(128, 128, 128, 0.301);
+           height: 15rem;
+           margin-top: -4px;
+           text-align: center;
+           line-height: 2rem;
+           line-height: 2.2rem;
+}
+
+.writeup h3{  display: flex;
+              justify-content: center;
+              padding-top:3rem;
+              font-size: 1.5rem;
+
+}
+
+.writeup p{ font-size: 1.4rem;
+
+
+}
+
+.writeup a{
+             text-decoration: none;
+             color: rgba(128, 0, 128, 0.628);
+
+}
+
+
+
+
+
+.picture-design{   display: flex;
+                   justify-content:flex-start;
+                   gap:2rem;
+                   padding: 3.5rem;
+                   padding-top:6rem;
+                   
+                      
+}
+
+.picture-design img {  position: relative;
+                       z-index:-1;
+                       
+                       
+                     
+
+}
+
+
+
+.picture-design-box{ /*border: 1px solid brown;*/
+                     height: 17rem;
+                     width: 28.5rem;
+                     margin-top: -14rem;
+                     margin-left:39rem;
+                     padding:3.5rem;
+                     background-image: url(./pictures/Dark\ Grey\ Woven\ Texture\ Background\ Pattern\ -\ WeLoveSoLo.jpg);
+                     background-size:cover;
+                     color: white;
+                
+                    
+}
+
+
+.picture-design-box h3{
+                        font-size:1.8rem;
+                       
+                        
+}
+
+.picture-design-box p{ font-size:18.5px;
+                       margin-top:1rem;
+                       
+}
+
+
+.picture-design-box button{
+                             padding:1rem;
+                             margin-top:1rem;
+
+}
+
+
+.two{ display:flex;
+      /*border: 1px solid red;*/
+      justify-content:end;
+      padding-right:2.5rem;
+      padding-top:3rem;
+      flex-shrink:0;
+   
+    
+}
+
+
+.writeup-box-two{  flex-shrink:0;
+                   /*border: 2px solid green;*/
+                   height:16.5rem;
+                   align-self:end;
+                   width:27.5rem;
+                   padding:2rem;
+                   margin-right:-10rem;
+                   margin-bottom:-3rem;
+                   z-index:2;
+                   background-image: url(./pictures/Dark\ Grey\ Woven\ Texture\ Background\ Pattern\ -\ WeLoveSoLo.jpg);
+                   color: white;
+                   background-size:cover;
+}
+
+.writeup-box-two h3{  
+                      font-size:1.8rem;
+                      
+
+}
+
+.writeup-box-two p{
+                      font-size:18.5px;
+                      margin-top:1rem;
+}
+
+.writeup-box-two button{
+                           padding:1rem;
+                           margin-top:1rem;
+}
+
+
+
+
+.three{ /*border: 2px solid purple;*/
+        display:flex;
+        justify-content:flex-start;
+        padding:3.5rem;
+        padding-top:8rem;
+     
+
+}
+
+.three img{ position:relative;
+            z-index:-1;
+                    
+}
+
+.design-box-three{   /*border: 1px solid brown;*/
+                     height: 18rem;
+                     width: 30.5rem;
+                     margin-top:18rem;
+                     margin-bottom:-6rem;
+                     margin-left:-11rem;
+                     padding:1.8rem;
+                     background-image: url(./pictures/Dark\ Grey\ Woven\ Texture\ Background\ Pattern\ -\ WeLoveSoLo.jpg);
+                     background-size:cover;
+                     color: white;
+                     
+                
+
+}
+
+.design-box-three h3{   font-size:1.8rem;
+                        margin-top:1.5rem;
+                       
+}
+
+.design-box-three p{   font-size:18.5px;
+                       margin-top:1rem;
+
+
+}
+
+
+.design-box-three button{  padding:1rem;
+                           margin-top:1rem;
+
+
+
+}
+
+
+.contact-us2{  /*border: 5px solid blue;*/
+              text-align:center;
+              padding:8rem;
+              padding-top:4rem;
+              line-height:4rem;
+              font-size:2rem;
+              font-family:'Times New Roman', Times, serif;
+            
+
+}
+
+.contact-us2 p{ text-align:center;
+             
+            
+}
+
+.contact-us2 button{  padding:1.1rem;
+                     width:12rem;
+                     background-color:rgba(125, 54, 176, 0.906);
+                     border:0;
+                     color: white;
+                     font-size:1rem;
+             
+
+}
+
+
+
+.Totally{
+           text-align:center;
+           font-size:1.8rem;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .Totally p{  font-size:1.3rem;
+                 font-family: Arial, Helvetica, sans-serif;
+                 margin-top:0.5rem;
+                 
+
+    }
+
+    .purple-box{  display:flex;
+                  /*border: 2px solid red;*/
+                  height:17rem;
+                  display:flex;
+                  padding-left:2.5rem;
+                  padding-top:4rem;
+                  flex-direction:column;
+                  font-size:2.5rem;
+                  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                  margin-top:10rem;
+                  background-color:rgba(125, 54, 176, 0.781);
+                  color:white;
+             
+    }
+
+    .purple-box p{ font-size:1.5rem; 
+                   margin-top:-1rem;
+       }
+
+   .purple-box button{ display:flex;
+                       width:10rem;
+                       padding:1rem;
+                       align-self:end;
+                       margin-top:-5rem;
+                       margin-right:1.8rem;
+                       text-align:center;
+                       font-size:1.2rem;
+                       font-family:'Times New Roman', Times, serif;
+   }
+    
+   .purple-box button a{
+                            text-decoration:none;
+                            color:black;
+   }
+
+
+  .finishing{ /*border:5px solid green;*/
+              height:15rem;
+              display:flex;
+              justify-content:space-between;
+              padding:3rem;
+              line-height:2rem;
+              background-color:black;
+              color:white;
+
+}
+
+.finishing p a{
+    text-decoration:none;
+    color:white;
+}
+
+  .adjust{ margin-left:0.5rem;
+  }
+
+
+
+@media screen and (max-width:1105px){
+
+    
+.box1{
+    /*border: 5px solid red;*/
+    display: flex;
+    justify-content:space-around;
+    padding: 2rem;
+
+}
+    
+.header-navbar{ /*border: 5px solid;*/
+                display:flex;
+                justify-self: center;
+                
+               
+
+            
+}
+
+.header-navbar ul{ list-style: none;
+                   display:flex;
+                   gap:4rem;
+                   align-items: center;
+                   
+                  
+           
+
+}
+
+
+.box1 img{
+    width: 15rem;
+    
+}
+
+
+.displaybox img{
+
+    width:26rem;
+}
+
+.writeup{
+
+    width: 26rem;
+}
+
+
+.picture-design img{
+                       width:70%;
+
+}
+
+.picture-design-box{ 
+                     margin-left:27rem;
+                     width:25rem;
+                     padding-top:2.5rem;
+                    
+
+
+}
+
+
+.picture-design-box p{
+    font-size:0.95rem;
+   
+    
+}
+
+
+.two img{ width:64%;
+}
+
+
+.three img{
+             width:70%;
+         
+}
+
+.design-box-three{ width:25rem;
+                   padding-top:2.5rem;
+
+}
+
+.design-box-three h3{ margin-top: -1rem;
+
+
+}
+
+.design-box-three p{ margin-top:0.4rem;
+
+
+}
+
+
+.contact-us2{  font-size:2rem;
+              line-height:2rem;
+              font-weight:lighter;
+              margin-top:3rem;
+              
+
+}
+
+.contact-us2 button{  
+                     margin-top:1.8rem;
+                    
+
+}
+
+.purple-box{ font-size:2rem;
+             padding-top:3rem;
+             
+}
+
+.purple-box p{  font-size:1.2rem;
+               
+}
+
+.purple-box button{ margin-top:2rem;
+                    margin-right:0;
+                    align-self:baseline;
+                    font-size:1rem;
+                    text-align:center;
+
+                     
+}
+
+}
+
+
+
+
+@media screen and (max-width:911px){
+
+       
+.box1{
+    /*border: 5px solid red;*/
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem;
+
+}
+
+.box1 img{
+    width: 10rem;
+    
+}
+
+.header-navbar{
+    display: none;
+}
+
+.box1 svg{
+    display: flex;
+}
+
+
+.rocket-section{
+    line-height: normal;
+}
+
+.rocket-section h1{ font-size: 40px;
+    color: white;
+}
+
+.rocket-section p{
+                   font-size: 23px;
+                   color: white;
+
+}
+
+.rocket-section button{
+                 padding: 0.8rem;
+                 margin-top: 1rem;
+
+}
+
+.rocket-display-box{ flex-direction: column;
+     
+    
+}
+
+.writeup{ 
+
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+.displaybox img{
+    display:flex;
+    width:100%;
+}
+
+
+
+.picture-design img{
+    width: 100%;
+    display: flex;
+    
+}
+
+.picture-design-box{
+             display: flex;
+             flex-direction:column;
+             width:100%;
+             margin-top:-0.5rem;
+             margin-left:0.0rem;
+             padding:2rem;
+             padding-top:3rem;
+
+}
+
+
+
+.picture-design-box h3{ font-size: 1.2rem;
+    
+}
+
+.two{
+       justify-content:center;
+       flex-direction:column-reverse;
+       padding-left:2.6rem;
+       flex-shrink:0;
+       padding-top:1rem;
+       
+
+}
+
+.two img{ align-self:center;
+          width:95%;
+          display:flex;
+          flex-shrink:0; 
+         
+}
+
+
+.writeup-box-two{  padding:2rem;
+                   margin-right:0rem;
+                   margin-bottom:0rem;
+                   width:95%;
+                   align-self:center;
+                   flex-shrink:0;
+                   height:16rem;
+            
+}
+
+.writeup-box-two h3{ font-size: 1.2rem;
+                  
+
+}
+
+.writeup-box-two p{ font-size:0.9rem;
+
+}
+
+.writeup-box-two button{ width:100%;
+
+}
+
+
+.three{
+         flex-direction:column;
+         padding-top:4rem;
+}
+
+.three img{
+        width:100%;
+       
+}
+
+.design-box-three{ width:100%;
+                   margin-top:0rem;
+                   margin-left:0rem;
+                   height:14rem;
+                   padding-top:0.7rem;
+                   
+
+}
+
+
+.design-box-three h3{
+     margin-top:0rem;
+     font-size:1.3rem;
+     line-height:1.1rem;
+
+}
+
+.design-box-three p{
+     margin-top:0.8rem;
+     font-size:0.85rem;
+}
+
+
+.design-box-three button{
+                          width:100%;
+                          padding:0.75rem;
+}
+
+
+
+.contact-us2{  display:flex;
+              flex-shrink:0;
+              font-size:1.5rem;
+              flex-direction:column;
+              padding:0;
+              padding-top:1.5rem;
+              margin-top:4rem;
+              line-height:1.5rem;
+
+}
+
+.contact-us2  button{
+                      padding:0.7rem;  
+
+}
+
+
+
+.Totally{
+    padding-top:3rem;
+}
+
+
+.purple-box{  display: flex;
+              font-size:1.8rem;
+              padding-top:2.2rem;
+              height:20rem;
+              margin-top:6rem;
+              margin-left:-1.4rem;
+              text-align:center;
+         
+
+}
+
+.purple-box p{ font-size:1.3rem;
+               text-align:center; 
+               padding:0;
+               margin-left:-1.2rem;
+               margin-top:-1.2rem;
+}
+
+.purple-box button{
+                     width:8rem;
+                     font-size:0.8rem;
+                     margin:1rem;
+                     align-self: center;
+                     padding:0.5rem;
+                     padding-left:1.3rem;
+
+
+}
+
+.finishing{  flex-direction:column;
+             justify-content:center;
+              height:28rem;
+              text-align: center;
+}
+
+
+}

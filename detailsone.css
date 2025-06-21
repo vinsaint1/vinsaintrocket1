@@ -1,0 +1,393 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    border-bottom:1px solid rgba(0, 0, 0, 0.174);
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem;
+
+}
+
+.header-navbar{ /*border: 5px solid;*/
+                display: flex;
+                
+               
+
+            
+}
+
+.header-navbar ul{ list-style: none;
+                   display: flex;
+                   gap:6rem;
+                   align-items: center;
+                  
+                   
+
+}
+
+.header-navbar ul a{
+                    text-decoration:none;
+                    color: black;
+ 
+}
+
+.box1 svg{
+    display:none;
+}
+
+
+.program{  
+           display:flex;
+
+}
+
+.program1{
+            padding:4rem;
+             line-height:4.5rem;
+}
+
+.program1 h1{
+               font-size:3.5rem;
+               font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+               
+
+}
+
+.program1 p{  line-height:2rem;
+              font-size:1.2rem;
+              font-family: 'Times New Roman', Times, serif;
+              margin-top:1.7rem;
+}
+
+.probox{
+          border-top: 1px solid  rgba(0, 0, 0, 0.174);
+          padding:1.5rem;
+          padding-top:1.5rem;
+}
+
+.probox button{ padding:1rem;
+                padding-right:2rem;
+                padding-left:2rem;
+                font-size:1.2rem;
+                background-color:rgba(128, 0, 128, 0.824);
+                color: white;
+                border:0;
+
+                 
+}
+
+.probox button:hover{
+                          background-color:rgba(52, 4, 52, 0.833);
+                          border:2px solid blueviolet;
+
+}
+
+.program2 img{  width:85%;
+                height:85%;
+                padding-top:3rem;
+
+        
+                      
+}
+
+
+.made{ /*border:2px solid blue;*/
+       display:flex;
+       justify-content:center;
+       font-size:1.5rem;
+       padding:4rem;
+       
+}
+
+.rockethand{    flex-direction: column;
+                display:flex;
+                justify-content:center;
+                padding-top:3rem;
+                width:98%;
+                padding-left:2rem;
+                
+
+
+}
+
+.rockethand p{
+                  display:flex;
+                  justify-content:center;
+                  font-size:1.7rem;
+                  padding:4rem;
+                 
+       
+}
+
+
+
+    .purple-box{  display:flex;
+                  /*border: 2px solid red;*/
+                  height:17rem;
+                  display:flex;
+                  padding-left:2.5rem;
+                  padding-top:4rem;
+                  flex-direction:column;
+                  font-size:2.5rem;
+                  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                  margin-top:10rem;
+                  background-color:rgba(125, 54, 176, 0.781);
+                  color:white;
+             
+    }
+
+    .purple-box p{ font-size:1.5rem; 
+                   margin-top:-1rem;
+       }
+
+   .purple-box button{ display:flex;
+                       width:10rem;
+                       padding:1rem;
+                       align-self:end;
+                       margin-top:-5rem;
+                       margin-right:1.8rem;
+                       text-align:center;
+                       font-size:1.2rem;
+                       font-family:'Times New Roman', Times, serif;
+   }
+
+
+
+  .finishing{ /*border:5px solid green;*/
+              height:15rem;
+              display:flex;
+              justify-content:space-between;
+              padding:3rem;
+              line-height:2rem;
+              background-color:black;
+              color:white;
+
+
+
+  }
+
+  .adjust{ margin-left:0.5rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1105px){
+
+
+.box1{
+    border-bottom:1px solid rgba(0, 0, 0, 0.174);
+    display: flex;
+    justify-content:space-around;
+    padding: 2rem;
+
+}
+    
+.header-navbar{ /*border: 5px solid;*/
+                display:flex;
+                justify-self: center;
+                
+               
+
+            
+}
+
+.header-navbar ul{ list-style: none;
+                   display:flex;
+                   gap:4rem;
+                   align-items: center;
+                   
+                  
+           
+
+}
+
+
+.box1 img{
+    width: 15rem;
+    
+}
+
+
+.program1 h1{
+               font-size:3.2rem;
+               font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+               
+
+}
+
+.program1 p{  line-height:2rem;
+              font-size:1.2rem;
+    
+}
+
+
+
+.rockethand p{
+                  display:flex;
+                  justify-content:center;
+                  font-size:1.3rem;
+                  padding:4rem;
+                 
+       
+}
+
+
+.purple-box{ font-size:2rem;
+             padding-top:3rem;
+             
+}
+
+.purple-box p{  font-size:1.2rem;
+               
+}
+
+.purple-box button{ margin-top:2rem;
+                    margin-right:0;
+                    align-self:baseline;
+                    font-size:1rem;
+                    text-align:center;
+
+                     
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:911px){
+
+       
+.box1{
+    border-bottom:1px solid rgba(0, 0, 0, 0.174);
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem;
+
+}
+
+.box1 img{
+    width: 10rem;
+    
+}
+
+.header-navbar{
+    display: none;
+}
+
+.box1 svg{
+    display: flex;
+}
+
+.program{  margin-left:-2rem;
+           flex-direction:column;
+}
+
+
+.program1 h1{  
+               font-size:2.8rem;
+               font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+               
+
+}
+
+
+.program2 img{  width:90%;
+                height:85%;
+                padding-top:0rem;
+                padding-left:1rem;
+                margin-top:-3rem;
+                 margin-left:1.8rem;
+              
+        
+                      
+}
+
+
+
+
+.rockethand p{
+                  display:flex;
+                  justify-content:center;
+                  font-size:1rem;
+                  padding:4rem;
+                 
+       
+}
+
+
+
+.purple-box{  display: flex;
+              font-size:1.8rem;
+              padding-top:2.2rem;
+              height:20rem;
+              margin-top:6rem;
+              margin-left:-1.4rem;
+              text-align:center;
+         
+
+}
+
+.purple-box p{ font-size:1.3rem;
+               text-align:center; 
+               padding:0;
+               margin-left:-1.2rem;
+               margin-top:-1.2rem;
+}
+
+.purple-box button{
+                     width:8rem;
+                     font-size:0.8rem;
+                     margin:1rem;
+                     align-self: center;
+                     padding:0.5rem;
+                     padding-left:1.3rem;
+
+
+}
+
+.finishing{  flex-direction:column;
+             justify-content:center;
+              height:28rem;
+              text-align: center;
+}
+
+
+
+
+}
